@@ -1,0 +1,302 @@
+@media only screen and (min-width: 1200px) {
+  /*overskrifter og tekst desktop*/
+
+  h1 {
+    font-family: "Koulen", sans-serif;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: "Koulen", sans-serif;
+  }
+
+  h3 {
+    font-family: "Koulen", sans-serif;
+  }
+
+  h4 {
+    font-family: "Koulen", sans-serif;
+    font-size: xx-large;
+  }
+
+  h5 {
+    font-family: "Koulen", sans-serif;
+    font-size: xxx-large;
+    text-align: center;
+  }
+
+  p,
+  li {
+    font-family: "PT Serif", serif;
+  }
+
+  /*forside desktop*/
+
+  .gul_boks {
+    background-color: #fff38c;
+    margin: auto;
+    height: 660px;
+    width: 1200px;
+  }
+
+  .isabel_billede {
+    height: 400px;
+    margin-top: 257px;
+  }
+
+  .isabel_forsidetekst {
+    position: absolute;
+    left: 570px;
+    top: 500px;
+    font-size: xx-large;
+  }
+
+  .mobil_logo {
+    display: none;
+  }
+
+  /****Menu****/
+  body,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Styler nav menu */
+  nav {
+    display: flex;
+    justify-content: flex-end; /* Placerer menuen til højre */
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  /* Styler navigation menu links, ingen understreger */
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 200px;
+    margin-right: 310px;
+  }
+
+  .menu li {
+    margin-left: 20px;
+    font-family: "Koulen", sans-serif;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+
+  /* Styling for mobil */
+  .burger {
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  /****Om mig side****/
+
+  .ommig_boks {
+    background-color: #fff38c;
+    margin: 80px;
+    padding: 30px;
+    height: 600px;
+    font-size: large;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  #om_mig_billede {
+    margin-left: 300px;
+    transform: scale(0.13);
+    height: 1%;
+  }
+
+  #cv_tekst {
+    font-size: xxx-large;
+    margin-top: 100px;
+    margin-left: 350px;
+  }
+
+  .cv_boks {
+    background-color: #fff38c;
+    margin: 108px;
+    padding: 20px;
+  }
+
+  .cv_info {
+    margin-left: 70px;
+  }
+
+  /****Tema-sider****/
+  .gulboks_tema {
+    background-color: #fff38c;
+  }
+  .temabeskrivelse_boks {
+    background-color: #f2f0f0;
+    margin: 80px;
+    padding: 30px;
+    height: 600px;
+    font-size: large;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+}
+
+/*** Media query for mobil-responsiveness ***/
+
+@media only screen and (max-width: 768px) {
+  /*Burgermenu*/
+
+  .menu {
+    display: none;
+    gap: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .line {
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    margin: 5px 0;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .menu li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Jost", sans-serif;
+  }
+
+  nav:hover .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    background-color: #000000;
+    border-radius: 30px;
+    box-shadow: 7px -4px 2px rgba(11, 11, 11, 0.56);
+  }
+
+  nav:hover .menu a {
+    text-align: center;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    color: white;
+  }
+  nav:hover .menu a:hover {
+    color: #fff38c;
+  }
+
+  /***gul boks forside***/
+
+  .gul_boks {
+    background-color: #fff38c;
+    margin-left: 30px;
+    height: 680px;
+    width: 400px;
+  }
+
+  .isabel_billede {
+    height: 400px;
+    margin-top: 270px;
+    margin-left: 00px;
+  }
+
+  .isabel_forsidetekst {
+    display: none;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  /****Om mig side - mobil****/
+
+  .ommig_boks {
+    background-color: #fff38c;
+    padding: 10px;
+    height: 911px;
+    font-size: large;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  #om_mig_billede {
+    margin-right: 300px;
+    transform: scale(0.1);
+    height: 10%;
+  }
+
+  #cv_tekst {
+    margin-top: 500px;
+    margin-left: 195px;
+  }
+
+  .cv_boks {
+    background-color: #fff38c;
+    margin: 10px;
+    padding: 20px;
+    line-height: 27px;
+  }
+
+  /****Tema-sider****/
+  .gulboks_tema {
+    background-color: #fff38c;
+  }
+  .temabeskrivelse_boks {
+    background-color: #f2f0f0;
+    margin: 20px;
+    padding: 20px;
+    height: 900px;
+    font-size: medium;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  /*overskrifter og tekst mobil*/
+
+  h1 {
+    font-family: "Koulen", sans-serif;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Koulen", sans-serif;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: "Koulen", sans-serif;
+    font-size: xxx-large;
+  }
+
+  h4 {
+    font-family: "Koulen", sans-serif;
+    font-size: large;
+  }
+
+  h5 {
+    font-family: "Koulen", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+  }
+
+  p,
+  li {
+    font-family: "PT Serif", serif;
+  }
+}

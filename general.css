@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1200px) {
+  #logo {
+    position: absolute;
+    background-size: cover;
+    width: 150px;
+    left: 2%;
+  }
+
+  header {
+    margin: 2%;
+  }
+
+  main {
+    margin: 2%;
+    padding-bottom: 100px;
+  }
+
+  .grid_1,
+  .grid_2,
+  .billede1,
+  .billede2,
+  .billede3,
+  .billede4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .billede1,
+  .billede2,
+  .billede3,
+  .billede4 {
+    border: 3px solid black;
+    height: 100%;
+    width: 80%;
+    margin-left: 60px;
+    filter: grayscale(100%);
+  }
+
+  /****Tema-sider grid, imgs og styling****/
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+    position: fixed;
+    top: 230px;
+    left: 50px;
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .arrow:hover {
+    border: solid #fff38c;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+  }
+
+  .grid_box {
+    background-color: #fff38c;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 80px;
+  }
+
+  .grid_box1 {
+    background-color: #f2f0f0;
+    margin-top: 100px;
+  }
+
+  .grid_3,
+  .grid_4 {
+    padding: 20px;
+  }
+
+  .grid_5,
+  .grid_6,
+  .grid_7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 80px;
+  }
+
+  .billede5,
+  .billede6,
+  .billede7,
+  .billede8,
+  .billede9,
+  .billede10 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  /****Footer****/
+  footer {
+    background: rgb(205, 204, 204);
+    padding: 25px;
+  }
+
+  /* Hover farve på billeder */
+
+  .billede1:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+  .billede2:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+  .billede3:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+  .billede4:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+
+  .tekst_tema2,
+  .tekst_tema3,
+  .tekst_tema4,
+  .tekst_tema5 {
+    background-color: #fff38c;
+  }
+}
+
+/*****Mobilsite*****/
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 20px;
+  }
+
+  /*Portfolio*/
+
+  .grid_1,
+  .grid_2,
+  .billede1,
+  .billede2,
+  .billede3,
+  .billede4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .billede1,
+  .billede2,
+  .billede3,
+  .billede4 {
+    border: 3px solid black;
+    filter: grayscale(100%);
+  }
+  .tekst_tema2,
+  .tekst_tema3,
+  .tekst_tema4,
+  .tekst_tema5 {
+    background-color: #fff38c;
+  }
+
+  .billede1:hover {
+    filter: grayscale(0%);
+    transform: scale(1.01);
+  }
+  .billede2:hover {
+    filter: grayscale(0%);
+    transform: scale(1.01);
+  }
+  .billede3:hover {
+    filter: grayscale(0%);
+    transform: scale(1.01);
+  }
+  .billede4:hover {
+    filter: grayscale(0%);
+    transform: scale(1.01);
+  }
+
+  /****Tema-sider grid****/
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    position: fixed;
+    top: 215px;
+  }
+
+  .arrow:hover {
+    border: solid #fff38c;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .grid_box {
+    background-color: #fff38c;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+  }
+
+  .grid_3,
+  .grid_4 {
+    padding: 20px;
+  }
+
+  .grid_box1 {
+    background-color: #f2f0f0;
+  }
+
+  .grid_5,
+  .grid_6,
+  .grid_7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .billede5,
+  .billede6,
+  .billede7,
+  .billede8,
+  .billede9,
+  .billede10 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  /****Footer****/
+  footer {
+    background: rgb(205, 204, 204);
+    padding-top: 10px;
+    margin-top: 200px;
+  }
+}
