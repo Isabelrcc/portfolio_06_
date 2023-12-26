@@ -25,6 +25,13 @@
     text-align: center;
   }
 
+  h6 {
+    font-family: "Koulen", sans-serif;
+    font-size: larger;
+    margin-left: 250px;
+    margin-top: 60px;
+  }
+
   p,
   li {
     font-family: "PT Serif", serif;

@@ -103,6 +103,21 @@
     padding: 10px;
   }
 
+  .grid_8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .isabel_billede2 {
+    width: 93%;
+    height: 100%;
+    margin-top: 45px;
+  }
+
+  .kontakt_billeder {
+    transform: scale(0.3);
+  }
+
   /****Footer****/
   footer {
     background: rgb(205, 204, 204);
