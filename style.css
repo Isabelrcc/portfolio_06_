@@ -149,6 +149,18 @@
     line-height: 35px;
     font-family: "PT Serif", serif;
   }
+
+  .resultatlink a {
+    margin-left: 565px;
+    text-decoration: none;
+    list-style: none;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: #fff38c;
+    color: #000000;
+    font-family: "Koulen", sans-serif;
+  }
 }
 
 /*** Media query for mobil-responsiveness ***/
@@ -272,6 +284,17 @@
     font-size: medium;
     line-height: 35px;
     font-family: "PT Serif", serif;
+  }
+
+  .resultatlink a {
+    text-decoration: none;
+    margin-left: 195px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #fff38c;
+    color: #000000;
+    font-family: "Koulen", sans-serif;
   }
 
   /*overskrifter og tekst mobil*/
