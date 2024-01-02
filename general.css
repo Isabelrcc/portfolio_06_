@@ -46,7 +46,7 @@
 
   .arrow {
     border: solid black;
-    border-width: 0 3px 3px 0;
+    border-width: 0 7px 7px 0;
     display: inline-block;
     padding: 12px;
     position: fixed;
@@ -61,7 +61,7 @@
 
   .arrow:hover {
     border: solid #fff38c;
-    border-width: 0 3px 3px 0;
+    border-width: 0 7px 7px 0;
     display: inline-block;
   }
 
@@ -120,6 +120,40 @@
     display: grid;
     grid-template-rows: 1fr;
     transform: scale(0.3);
+  }
+
+  .grid_9 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .grid_9_child_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .grid_9_child_2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .grid_9_child_3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   /* Hover farve på billeder */
@@ -207,11 +241,11 @@
 
   .arrow {
     border: solid black;
-    border-width: 0 3px 3px 0;
+    border-width: 0 5px 5px 0;
     display: inline-block;
-    padding: 5px;
+    padding: 7px;
     position: fixed;
-    top: 215px;
+    top: 200px;
   }
 
   .arrow:hover {
