@@ -12,6 +12,7 @@
 
   h3 {
     font-family: "Koulen", sans-serif;
+    animation: textShadow_kf 1.3s ease-in-out infinite alternate;
   }
 
   h4 {
@@ -53,9 +54,9 @@
 
   .isabel_forsidetekst {
     position: absolute;
-    left: 600px;
+    left: 632px;
     top: 500px;
-    font-size: xx-large;
+    font-size: xxx-large;
   }
 
   .mobil_logo {
@@ -121,8 +122,7 @@
   }
 
   #cv_tekst {
-    font-size: xxx-large;
-    margin-top: 100px;
+    font-size: xx-large;
     margin-left: 350px;
   }
 
@@ -160,6 +160,18 @@
     background-color: #fff38c;
     color: #000000;
     font-family: "Koulen", sans-serif;
+  }
+
+  /***Keyframes***/
+
+  @keyframes textShadow_kf {
+    from {
+      text-shadow: 2px 2px #333;
+    }
+
+    to {
+      text-shadow: 10px 10px #333;
+    }
   }
 }
 
@@ -262,7 +274,7 @@
 
   #cv_tekst {
     margin-top: 500px;
-    margin-left: 195px;
+    font-size: x-large;
   }
 
   .cv_boks {

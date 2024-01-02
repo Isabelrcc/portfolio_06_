@@ -103,6 +103,8 @@
     padding: 10px;
   }
 
+  /***Kontaktside***/
+
   .grid_8 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -118,12 +120,6 @@
     display: grid;
     grid-template-rows: 1fr;
     transform: scale(0.3);
-  }
-
-  /****Footer****/
-  footer {
-    background: rgb(205, 204, 204);
-    padding: 25px;
   }
 
   /* Hover farve på billeder */
@@ -262,12 +258,5 @@
     width: 100%;
     height: 100%;
     padding: 10px;
-  }
-
-  /****Footer****/
-  footer {
-    background: rgb(205, 204, 204);
-    padding-top: 10px;
-    margin-top: 200px;
   }
 }
