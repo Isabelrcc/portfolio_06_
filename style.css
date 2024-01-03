@@ -140,11 +140,42 @@
   .gulboks_tema {
     background-color: #fff38c;
   }
+
+  .temabeskrivelse_boks1 {
+    background-color: #f2f0f0;
+    margin: 80px;
+    padding: 30px;
+    height: 420px;
+    font-size: large;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
   .temabeskrivelse_boks {
     background-color: #f2f0f0;
     margin: 80px;
     padding: 30px;
     height: 600px;
+    font-size: large;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  .temabeskrivelse_boks2 {
+    background-color: #f2f0f0;
+    margin: 80px;
+    padding: 30px;
+    height: 400px;
+    font-size: large;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  .temabeskrivelse_boks3 {
+    background-color: #f2f0f0;
+    margin: 80px;
+    padding: 30px;
+    height: 630px;
     font-size: large;
     line-height: 35px;
     font-family: "PT Serif", serif;
@@ -306,6 +337,26 @@
     margin: 20px;
     padding: 20px;
     height: 900px;
+    font-size: medium;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  .temabeskrivelse_boks2 {
+    background-color: #f2f0f0;
+    margin: 20px;
+    padding: 20px;
+    height: 680px;
+    font-size: medium;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  .temabeskrivelse_boks3 {
+    background-color: #f2f0f0;
+    margin: 20px;
+    padding: 20px;
+    height: 1000px;
     font-size: medium;
     line-height: 35px;
     font-family: "PT Serif", serif;
