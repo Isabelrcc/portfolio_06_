@@ -181,6 +181,12 @@
   .tekst_tema5 {
     background-color: #fff38c;
   }
+
+  /***Footer***/
+
+  footer {
+    padding: 10px;
+  }
 }
 
 /*****Mobilsite*****/

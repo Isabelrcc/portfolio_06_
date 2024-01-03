@@ -162,6 +162,20 @@
     font-family: "Koulen", sans-serif;
   }
 
+  .resultatlink2 a {
+    position: absolute;
+    left: 590px;
+    top: 1400px;
+    text-decoration: none;
+    list-style: none;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: #fff38c;
+    color: #000000;
+    font-family: "Koulen", sans-serif;
+  }
+
   /***Keyframes***/
 
   @keyframes textShadow_kf {
@@ -299,7 +313,21 @@
 
   .resultatlink a {
     text-decoration: none;
-    margin-left: 245px;
+    margin-left: 140px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #fff38c;
+    color: #000000;
+    font-family: "Koulen", sans-serif;
+  }
+
+  .resultatlink2 a {
+    position: absolute;
+    right: 140px;
+    top: 1545px;
+    text-decoration: none;
+    list-style: none;
     border: 2px solid #000000;
     border-radius: 10px;
     padding: 3px;
