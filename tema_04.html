@@ -111,18 +111,6 @@
                 <img class="billede6" src="imgs/illustrator.png" alt="illustrator">
 
             </div>
-            <div class="grid_6">
-                <h2>Aktivitets-og Statemachinediagram</h2>
-                <h2>Svampespillet - css positionering</h2>
-                <img class="billede7" src="imgs/state.png" alt="statediagram">
-                <img class="billede8" src="imgs/svampespillet.png" alt="svampespillet">
-            </div>
-            <div class="grid_7">
-                <h2>Audition</h2>
-                <h2>Java Script</h2>
-                <img class="billede9" src="imgs/adobe.png" alt="audition">
-                <img class="billede10" src="imgs/java.png" alt="js">
-            </div>
         </div>
 
         <div class="temabeskrivelse_boks5">
@@ -135,19 +123,63 @@
                 hvilket min stewardesse, flyvemaskine og skyer også er inspireret af. Efter jeg besluttede mig for min
                 stil, påbegyndte jeg min paper-prototype. Dette gav mig en bredere visualisering for spillets flow.
                 Fx. man har 20 sek til at indsamle min. 15 pas. Absolut-flasken mister man 1 liv på og man har kun 3 liv
-                i alt. Herfter tegnede jeg mine elementer i Illustrator ved hjælp af form-sheetet. Her fandt jeg ud af,
+                i alt. Herfter tegnede jeg mine elementer i Illustrator ved hjælp af cheat-sheetet. Her fandt jeg ud af,
                 hvordan man kan tegne med former i Illustrator og komponere forgrund, mellemgrund og baggrund, så det
-                giver et mere realistisk perspektiv.
+                giver et mere realistisk perspektiv. Udover det lærte jeg at gemme mine Illustrator tegninger i
+                SVG-format, som betyder "Scale
+                Vector Graphics".
+        </div>
+
+        <div class="grid_box1">
+
+            <div class="grid_6">
+                <h2>Aktivitets-og Statemachinediagram</h2>
+                <h2>Svampespillet - css positionering</h2>
+                <img class="billede7" src="imgs/state.png" alt="statediagram">
+                <img class="billede8" src="imgs/svampespillet.png" alt="svampespillet">
+            </div>
         </div>
 
         <div class="temabeskrivelse_boks5">
-            <h1>Diagrammer og CSS positionering</h1>
+            <h1>Diagrammer & CSS positionering</h1>
             <p>Dernæst i processen, så lavede jeg mit aktivitetsprogram i VSCode med draw.io-udvidelsen, som bruges til
                 at
                 beskrive interaktive
                 systemer. Altså det hjalp på at forstå handlinger og beslutninger i mit spil mere detaljeret og i en
                 bestemt rækkefølge. Efterfølgende udarbejdede jeg mit State Machine diagram, som er endnu mere
-                detaljeret og dermed blev en guide til hvordan spillet skulle kodes i JavaScript.</p>
+                detaljeret og dermed blev en guide til hvordan spillet skulle kodes i JavaScript. Senere i processen
+                kiggede vi på "Svampespillet" i forbindelse med at lære "position:absolute;", "left;", "right;" og
+                "top;" til at
+                placere ens UI-elementer præcist på titelskærm, baggrundskærm og slutskærm. Denne øvelse hjalp mig
+                rigtigt meget til at forstå opbygningen af spillets design. I denne forbindelse lærte jeg også om
+                "Container & Sprite" princippet, hvilket gjorde at jeg kunne animere sprite og containeren hver for sig.
+                Fx. min pas_container og vodka_container falder ned oppefra, hvorimod pas_sprite og pas_container
+                stopper og zoomer ud, når man klikker på den.</p>
+        </div>
+        <div class="grid_box1">
+            <div class="grid_7">
+                <h2>CSS Keyframes</h2>
+                <h2>Java Script</h2>
+                <img class="billede9" src="imgs/keyframes.png" alt="keyframes">
+                <img class="billede10" src="imgs/java.png" alt="js">
+            </div>
+        </div>
+
+        <div class="temabeskrivelse_boks5">
+            <h1>CSS Keyframes & Javascript</h1>
+            <p>Nu hvor mit State-diagram, spil-elementer og skærme er færdige, så kunne jeg gå i gang med at kode
+                CSS keyframes og javascript, så mine elementer kom i bevægelse og dermed skabe dynamik i spillet.
+                Via keyframes har jeg lært at definere en animations bevægelse. I denne forbindelse har jeg også lært at
+                pege på CSS-selectors ved at bruge "document.querySelector("#start_knap")" og hvordan man tilføjer eller
+                fjerner classes eksempelvis: "add.EventListener" og "remove.EventListener".
+                Javascriptet benytter jeg hovedsageligt for at loade siden
+                "console.log("sidenVises")", gøre dem klikbare "function clickPassport()" og ikke mindst undersøge i
+                inspectoren om mine funktioner gør som jeg har bedt dem om. Udover det lærte jeg også at indsætte lyde
+                og musik via Javascript, som jeg optog selv og justerede i Audition fx. indsættede jeg alle mine
+                lyd-effekter og musik i min spil.html og dernæst indsættede jeg i "function clickPassport" mine
+                lydeffekter ved at bruge forskellige query-selectors, der bestemmer hvor
+                mange gange
+                lyden afspilles og dets volumen. Så når man klikker på passet, så lyder der en "weee"-lyd.</p>
         </div>
 
     </main>
