@@ -175,7 +175,7 @@
     background-color: #f2f0f0;
     margin: 80px;
     padding: 30px;
-    height: 630px;
+    height: 700px;
     font-size: large;
     line-height: 35px;
     font-family: "PT Serif", serif;
@@ -186,6 +186,16 @@
     margin: 80px;
     padding: 30px;
     height: 370px;
+    font-size: large;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  .temabeskrivelse_boks5 {
+    background-color: #f2f0f0;
+    margin: 80px;
+    padding: 30px;
+    height: 430px;
     font-size: large;
     line-height: 35px;
     font-family: "PT Serif", serif;
@@ -376,7 +386,7 @@
     background-color: #f2f0f0;
     margin: 20px;
     padding: 20px;
-    height: 1000px;
+    height: 1050px;
     font-size: medium;
     line-height: 35px;
     font-family: "PT Serif", serif;
@@ -388,6 +398,16 @@
     padding: 20px;
     height: 520px;
     font-size: medium;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  .temabeskrivelse_boks5 {
+    background-color: #f2f0f0;
+    margin: 20px;
+    padding: 20px;
+    height: 780px;
+    font-size: large;
     line-height: 35px;
     font-family: "PT Serif", serif;
   }
