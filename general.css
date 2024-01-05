@@ -128,10 +128,19 @@
     grid-template-rows: repeat(3, 1fr);
   }
 
+  .grid_9_child_1 h6 {
+    margin: 44px auto;
+  }
+  .grid_9_child_2 h6 {
+    margin: 44px auto;
+  }
+  .grid_9_child_3 h6 {
+    margin: 44px auto;
+  }
+
   .grid_9_child_1 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-content: center;
     align-self: center;
     margin-left: 2%;
@@ -140,7 +149,7 @@
 
   .grid_9_child_2 {
     display: flex;
-    justify-content: center;
+
     align-content: center;
     align-self: center;
     margin-left: 2%;
@@ -149,7 +158,6 @@
 
   .grid_9_child_3 {
     display: flex;
-    justify-content: center;
     align-content: center;
     align-self: center;
     margin-left: 2%;
@@ -185,9 +193,8 @@
   /***Footer***/
 
   footer {
-    padding: 10px;
+    padding: 25px;
   }
-
 }
 
 /*****Mobilsite*****/
@@ -299,6 +306,56 @@
   .billede10 {
     width: 100%;
     height: 100%;
+    padding: 10px;
+  }
+
+  /***Kontaktside***/
+
+  .grid_8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+  }
+
+  .isabel_billede2 {
+    width: 100%;
+  }
+
+  .kontakt_billeder {
+    width: 8%;
+  }
+
+  .grid_9_child_1 {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .grid_9_child_1 h6 {
+    font-size: medium;
+  }
+
+  .grid_9_child_2 {
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+
+  .grid_9_child_2 h6 {
+    font-size: medium;
+  }
+
+  .grid_9_child_3 {
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+  .grid_9_child_3 h6 {
+    font-size: medium;
+  }
+
+  .usynlig_boks {
+    margin: 100px;
+  }
+
+  footer {
     padding: 10px;
   }
 }
