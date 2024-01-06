@@ -318,11 +318,12 @@
   }
 
   .isabel_billede2 {
-    width: 100%;
+    width: 121%;
+    height: 130%;
   }
 
   .kontakt_billeder {
-    width: 8%;
+    width: 17%;
   }
 
   .grid_9_child_1 {
@@ -332,6 +333,7 @@
 
   .grid_9_child_1 h6 {
     font-size: medium;
+    font-family: "Koulen", sans-serif;
   }
 
   .grid_9_child_2 {
@@ -341,6 +343,7 @@
 
   .grid_9_child_2 h6 {
     font-size: medium;
+    font-family: "Koulen", sans-serif;
   }
 
   .grid_9_child_3 {
@@ -349,6 +352,7 @@
   }
   .grid_9_child_3 h6 {
     font-size: medium;
+    font-family: "Koulen", sans-serif;
   }
 
   .usynlig_boks {

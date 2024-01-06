@@ -262,6 +262,7 @@
   .burger {
     display: flex;
     flex-direction: column;
+    padding: 5px;
   }
 
   .menu a {
@@ -301,14 +302,14 @@
 
   .gul_boks {
     background-color: #fff38c;
-    margin-left: 80px;
-    height: 550px;
-    width: 68.3%;
+    width: 100%;
+    margin-top: 130px;
   }
 
   .isabel_billede {
     height: 400px;
     margin-top: 150px;
+    width: 100%;
   }
 
   .isabel_forsidetekst {
@@ -336,8 +337,8 @@
   }
 
   #cv_tekst {
-    margin-top: 330px;
-    font-size: x-large;
+    margin-top: 260px;
+    font-size: xx-large;
   }
 
   .cv_boks {
@@ -434,7 +435,7 @@
   h1 {
     font-family: "Koulen", sans-serif;
     text-align: center;
-    font-size: small;
+    font-size: medium;
   }
 
   h2 {
@@ -444,7 +445,7 @@
 
   h3 {
     font-family: "Koulen", sans-serif;
-    font-size: xxx-large;
+    font-size: xx-large;
   }
 
   h4 {
@@ -463,5 +464,9 @@
     font-family: "PT Serif", serif;
     font-size: small;
     line-height: 27px;
+  }
+
+  li {
+    font-weight: bold;
   }
 }
