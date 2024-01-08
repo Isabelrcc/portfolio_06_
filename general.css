@@ -69,7 +69,7 @@
     background-color: #fff38c;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 80px;
+    margin: 50px;
   }
 
   .grid_box1 {

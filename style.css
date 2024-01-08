@@ -202,6 +202,26 @@
     font-family: "PT Serif", serif;
   }
 
+  .temabeskrivelse_boks6 {
+    background-color: #f2f0f0;
+    margin: 80px;
+    padding: 30px;
+    height: 680px;
+    font-size: large;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  .temabeskrivelse_boks7 {
+    background-color: #f2f0f0;
+    margin: 80px;
+    padding: 30px;
+    height: 500px;
+    font-size: large;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
   .resultatlink a {
     margin-left: 565px;
     text-decoration: none;
@@ -400,6 +420,24 @@
   }
 
   .temabeskrivelse_boks5 {
+    background-color: #f2f0f0;
+    margin: 20px;
+    padding: 20px;
+    font-size: large;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  .temabeskrivelse_boks6 {
+    background-color: #f2f0f0;
+    margin: 20px;
+    padding: 20px;
+    font-size: large;
+    line-height: 35px;
+    font-family: "PT Serif", serif;
+  }
+
+  .temabeskrivelse_boks7 {
     background-color: #f2f0f0;
     margin: 20px;
     padding: 20px;
