@@ -36,6 +36,7 @@
   p,
   li {
     font-family: "PT Serif", serif;
+    color: black;
   }
 
   /*forside desktop*/
@@ -468,5 +469,7 @@
 
   li {
     font-weight: bold;
+    font-size: 12px;
+    color: black;
   }
 }
