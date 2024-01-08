@@ -70,6 +70,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 50px;
+    padding: 20px;
   }
 
   .grid_box1 {
