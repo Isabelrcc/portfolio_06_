@@ -346,11 +346,19 @@ footer {
     padding: 20px;
   }
 
+  .grid_5,
+  .grid_6,
+  .grid_7 {
+    display: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 56px;
+  }
+
   .arrow {
     border: solid black;
     border-width: 0 5px 5px 0;
     display: inline-block;
-    padding: px;
     position: fixed;
     top: 280px;
     left: 20px;
