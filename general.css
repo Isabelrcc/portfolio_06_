@@ -104,6 +104,34 @@
     padding: 10px;
   }
 
+  .final_result {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .final_result img {
+    width: 70%;
+    height: 100%;
+    margin-left: 180px;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .final_result:hover img {
+    filter: blur(5px);
+  }
+
+  .final_result:hover::before {
+    content: "Se resultat";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 40px;
+    font-family: "Koulen", sans-serif;
+    z-index: 1;
+  }
+
   /***Kontaktside***/
 
   .grid_8 {
