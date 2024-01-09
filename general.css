@@ -4,234 +4,316 @@
   box-sizing: border-box;
 }
 
+/*****Mobil-first*****/
+
+main {
+  margin: 10px;
+  padding: 10px;
+}
+
+body {
+  margin: 10px;
+  padding: 10px;
+}
+
+/*Burgermenu*/
+
+.burger {
+  flex-direction: column;
+  cursor: pointer;
+  margin: 13px;
+}
+
+.menu {
+  display: none;
+  gap: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.line {
+  width: 40px;
+  height: 3px;
+  background-color: #000000;
+  margin: 5px 0;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.menu li {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Jost", sans-serif;
+}
+
+nav:hover .menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20px;
+  background-color: #000000;
+  border-radius: 30px;
+  box-shadow: 7px -4px 2px rgba(11, 11, 11, 0.56);
+}
+
+nav:hover .menu a {
+  text-align: center;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  color: white;
+}
+nav:hover .menu a:hover {
+  color: #fff38c;
+}
+
+body {
+  margin: 0px;
+  padding: 10px;
+}
+
+/*Portfolio side*/
+
+.grid_1,
+.grid_2,
+.billede1,
+.billede2,
+.billede3,
+.billede4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.billede1,
+.billede2,
+.billede3,
+.billede4 {
+  border: 3px solid black;
+  filter: grayscale(100%);
+}
+.tekst_tema2,
+.tekst_tema3,
+.tekst_tema4,
+.tekst_tema5 {
+  background-color: #fff38c;
+}
+
+.billede1:hover {
+  filter: grayscale(0%);
+  transform: scale(1.01);
+}
+.billede2:hover {
+  filter: grayscale(0%);
+  transform: scale(1.01);
+}
+.billede3:hover {
+  filter: grayscale(0%);
+  transform: scale(1.01);
+}
+.billede4:hover {
+  filter: grayscale(0%);
+  transform: scale(1.01);
+}
+
+/****Tema-sider grid****/
+
+.arrow {
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 7px;
+  position: fixed;
+  top: 280px;
+  left: 20px;
+}
+
+.arrow:hover {
+  border: solid #fff38c;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.grid_box {
+  background-color: #fff38c;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+}
+
+.grid_3,
+.grid_4 {
+  padding: 20px;
+}
+
+.grid_box1 {
+  background-color: #f2f0f0;
+}
+
+.grid_5,
+.grid_6,
+.grid_7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.billede5,
+.billede6,
+.billede7,
+.billede8,
+.billede9,
+.billede10 {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+/***Kontaktside***/
+
+.grid_8 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+}
+
+.isabel_billede2 {
+  width: 121%;
+  height: 130%;
+}
+
+.kontakt_billeder {
+  width: 17%;
+}
+
+.grid_9_child_1 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.grid_9_child_1 h6 {
+  font-size: medium;
+  font-family: "Koulen", sans-serif;
+}
+
+.grid_9_child_2 {
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.grid_9_child_2 h6 {
+  font-size: medium;
+  font-family: "Koulen", sans-serif;
+}
+
+.grid_9_child_3 {
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.grid_9_child_3 h6 {
+  font-size: medium;
+  font-family: "Koulen", sans-serif;
+}
+
+/***Tema-sider final result***/
+
+.final_result {
+  position: relative;
+  overflow: hidden;
+  left: 55px;
+}
+
+.final_result img {
+  width: 70%;
+  height: 100%;
+  transition: filter 0.3s ease-in-out;
+}
+
+.final_result:hover img {
+  filter: blur(5px);
+}
+
+.final_result:hover::before {
+  content: "Se resultat";
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Koulen", sans-serif;
+  z-index: 1;
+}
+
+footer {
+  padding: 10px;
+}
+
 @media only screen and (min-width: 1200px) {
-  #logo {
-    position: absolute;
-    background-size: cover;
-    width: 150px;
-    left: 2%;
-  }
-
-  header {
-    margin: 2%;
-  }
-
   main {
-    margin: 2%;
-    padding-bottom: 100px;
+    margin: 20px;
   }
 
-  .grid_1,
-  .grid_2,
-  .billede1,
-  .billede2,
-  .billede3,
-  .billede4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  body {
+    margin: 10px;
+    padding: 10px;
   }
 
-  .billede1,
-  .billede2,
-  .billede3,
-  .billede4 {
-    border: 3px solid black;
-    height: 100%;
-    width: 80%;
-    margin-left: 60px;
-    filter: grayscale(100%);
+  .burger {
+    margin-left: 25px;
+    margin-top: 10px;
   }
 
-  /****Tema-sider grid, imgs og styling****/
+  menu li {
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+  }
+
+  nav:hover .menu {
+    top: 20px;
+    width: 20%;
+    background-color: #000000;
+    border-radius: 30px;
+    box-shadow: 7px -4px 2px rgba(11, 11, 11, 0.56);
+  }
+
+  nav:hover .menu a {
+    text-align: center;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+  }
+
+  .mobil_logo {
+    display: none;
+  }
 
   .arrow {
     border: solid black;
     border-width: 0 7px 7px 0;
     display: inline-block;
-    padding: 12px;
-    position: fixed;
-    top: 230px;
-    left: 50px;
-  }
-
-  .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-  }
-
-  .arrow:hover {
-    border: solid #fff38c;
-    border-width: 0 7px 7px 0;
-    display: inline-block;
-  }
-
-  .grid_box {
-    background-color: #fff38c;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 50px;
-    padding: 20px;
-  }
-
-  .grid_box1 {
-    background-color: #f2f0f0;
-    margin-top: 100px;
-  }
-
-  .grid_3,
-  .grid_4 {
-    padding: 20px;
-  }
-
-  .grid_5,
-  .grid_6,
-  .grid_7 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 80%;
-    margin-left: 120px;
-    margin-top: 80px;
-  }
-
-  .billede5,
-  .billede6,
-  .billede7,
-  .billede8,
-  .billede9,
-  .billede10 {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-  }
-
-  .final_result {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .final_result img {
-    width: 70%;
-    height: 100%;
-    margin-left: 180px;
-    transition: filter 0.3s ease-in-out;
-  }
-
-  .final_result:hover img {
-    filter: blur(5px);
-  }
-
-  .final_result:hover::before {
-    content: "Se resultat";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-    font-size: 40px;
-    font-family: "Koulen", sans-serif;
-    z-index: 1;
-  }
-
-  /***Kontaktside***/
-
-  .grid_8 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .isabel_billede2 {
-    width: 80%;
-    height: 100%;
-    margin-top: 45px;
-  }
-
-  .kontakt_billeder {
-    display: grid;
-    grid-template-rows: 1fr;
-    transform: scale(0.3);
-  }
-
-  .grid_9 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-  }
-
-  .grid_9_child_1 h6 {
-    margin: 44px auto;
-  }
-  .grid_9_child_2 h6 {
-    margin: 44px auto;
-  }
-  .grid_9_child_3 h6 {
-    margin: 44px auto;
-  }
-
-  .grid_9_child_1 {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-self: center;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-
-  .grid_9_child_2 {
-    display: flex;
-
-    align-content: center;
-    align-self: center;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-
-  .grid_9_child_3 {
-    display: flex;
-    align-content: center;
-    align-self: center;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-
-  /* Hover farve på billeder */
-
-  .billede1:hover {
-    filter: grayscale(0%);
-    transform: scale(1.1);
-  }
-  .billede2:hover {
-    filter: grayscale(0%);
-    transform: scale(1.1);
-  }
-  .billede3:hover {
-    filter: grayscale(0%);
-    transform: scale(1.1);
-  }
-  .billede4:hover {
-    filter: grayscale(0%);
-    transform: scale(1.1);
-  }
-
-  .tekst_tema2,
-  .tekst_tema3,
-  .tekst_tema4,
-  .tekst_tema5 {
-    background-color: #fff38c;
-  }
-
-  /***Footer***/
-
-  footer {
-    padding: 25px;
-  }
-}
-
-/*****Mobilsite*****/
-
-@media only screen and (max-width: 768px) {
-  body {
-    margin: 0px;
-    padding: 10px;
+    padding: 14px;
+    margin-left: 20px;
   }
 
   /*Portfolio side*/
@@ -242,71 +324,21 @@
   .billede2,
   .billede3,
   .billede4 {
+    display: inherit;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 90px;
     height: 100%;
     width: 100%;
   }
 
-  .billede1,
-  .billede2,
-  .billede3,
-  .billede4 {
-    border: 3px solid black;
-    filter: grayscale(100%);
-  }
-  .tekst_tema2,
-  .tekst_tema3,
-  .tekst_tema4,
-  .tekst_tema5 {
-    background-color: #fff38c;
-  }
-
-  .billede1:hover {
-    filter: grayscale(0%);
-    transform: scale(1.01);
-  }
-  .billede2:hover {
-    filter: grayscale(0%);
-    transform: scale(1.01);
-  }
-  .billede3:hover {
-    filter: grayscale(0%);
-    transform: scale(1.01);
-  }
-  .billede4:hover {
-    filter: grayscale(0%);
-    transform: scale(1.01);
-  }
-
-  /****Tema-sider grid****/
-
-  .arrow {
-    border: solid black;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 7px;
-    position: fixed;
-    top: 200px;
-  }
-
-  .arrow:hover {
-    border: solid #fff38c;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-  }
-
-  .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-  }
+  /***Tema-sider grid***/
 
   .grid_box {
     background-color: #fff38c;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 20px;
+    margin: 100px;
   }
 
   .grid_3,
@@ -314,28 +346,24 @@
     padding: 20px;
   }
 
-  .grid_box1 {
-    background-color: #f2f0f0;
+  .arrow {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: px;
+    position: fixed;
+    top: 280px;
+    left: 20px;
   }
 
-  .grid_5,
-  .grid_6,
-  .grid_7 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 90%;
-    margin-left: 20px;
+  .final_result {
+    position: relative;
+    overflow: hidden;
+    left: 160px;
   }
 
-  .billede5,
-  .billede6,
-  .billede7,
-  .billede8,
-  .billede9,
-  .billede10 {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
+  .final_result:hover::before {
+    font-size: 70px;
   }
 
   /***Kontaktside***/
@@ -343,80 +371,39 @@
   .grid_8 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 80px;
   }
 
   .isabel_billede2 {
-    width: 121%;
+    width: 100%;
     height: 130%;
   }
 
   .kontakt_billeder {
-    width: 17%;
-  }
-
-  .grid_9_child_1 {
-    margin-left: 50px;
-    margin-top: 20px;
+    width: 10%;
+    margin-left: 100px;
   }
 
   .grid_9_child_1 h6 {
-    font-size: medium;
-    font-family: "Koulen", sans-serif;
-  }
-
-  .grid_9_child_2 {
-    margin-left: 50px;
-    margin-top: 60px;
+    margin-left: 100px;
   }
 
   .grid_9_child_2 h6 {
-    font-size: medium;
-    font-family: "Koulen", sans-serif;
+    margin-left: 100px;
   }
 
-  .grid_9_child_3 {
-    margin-left: 50px;
-    margin-top: 60px;
-  }
   .grid_9_child_3 h6 {
-    font-size: medium;
-    font-family: "Koulen", sans-serif;
+    margin-left: 100px;
   }
 
-  .usynlig_boks {
-    margin: 100px;
-  }
+  /***Keyframes***/
 
-  .final_result {
-    position: relative;
-    overflow: hidden;
-  }
+  @keyframes textShadow_kf {
+    from {
+      text-shadow: 2px 2px #333;
+    }
 
-  .final_result img {
-    width: 70%;
-    height: 100%;
-    margin-left: 70px;
-    transition: filter 0.3s ease-in-out;
-  }
-
-  .final_result:hover img {
-    filter: blur(5px);
-  }
-
-  .final_result:hover::before {
-    content: "Se resultat";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-    font-size: 30px;
-    font-family: "Koulen", sans-serif;
-    z-index: 1;
-  }
-
-  footer {
-    padding: 10px;
+    to {
+      text-shadow: 10px 10px #333;
+    }
   }
 }

@@ -1,517 +1,336 @@
-@media only screen and (min-width: 1200px) {
-  /*overskrifter og tekst desktop*/
+/***Mobilsite***/
 
-  h1 {
-    font-family: "Koulen", sans-serif;
-  }
+/***Forside***/
 
-  h2 {
-    text-align: center;
-    font-family: "Koulen", sans-serif;
-  }
+.gul_boks {
+  background-color: #fff38c;
+  width: 100%;
+}
 
-  h3 {
-    font-family: "Koulen", sans-serif;
-    animation: textShadow_kf 1.3s ease-in-out infinite alternate;
-  }
+.isabel_billede {
+  height: 400px;
+  margin-top: 150px;
+  width: 100%;
+}
 
-  h4 {
-    font-family: "Koulen", sans-serif;
-    font-size: xx-large;
-  }
+.isabel_forsidetekst {
+  display: none;
+}
 
-  h5 {
-    font-family: "Koulen", sans-serif;
-    font-size: xxx-large;
-    text-align: center;
-  }
+#logo {
+  display: none;
+}
 
-  h6 {
-    font-family: "Koulen", sans-serif;
-    font-size: larger;
-    margin-left: 250px;
-    margin-top: 60px;
-  }
+/****Tema-sider****/
+.gulboks_tema {
+  background-color: #fff38c;
+  width: 50%;
+  margin-left: 80px;
+}
 
-  p,
-  li {
-    font-family: "PT Serif", serif;
-    color: black;
-  }
+.temabeskrivelse_boks {
+  background-color: #f2f0f0;
+  font-size: medium;
+  line-height: 27px;
+  font-family: "PT Serif", serif;
+}
 
-  li a {
-    color: black;
-  }
+.temabeskrivelse_boks1 {
+  background-color: #f2f0f0;
+  margin: 10px;
+  padding: 10px;
+  font-size: medium;
+  line-height: 35px;
+  font-family: "PT Serif", serif;
+}
 
-  /*forside desktop*/
+.temabeskrivelse_boks2 {
+  background-color: #f2f0f0;
+  margin: 20px;
+  padding: 20px;
+  font-size: medium;
+  line-height: 35px;
+  font-family: "PT Serif", serif;
+}
 
+.temabeskrivelse_boks3 {
+  background-color: #f2f0f0;
+  margin: 20px;
+  padding: 20px;
+  font-size: medium;
+  line-height: 35px;
+  font-family: "PT Serif", serif;
+}
+
+.temabeskrivelse_boks4 {
+  background-color: #f2f0f0;
+  margin: 20px;
+  padding: 20px;
+  font-size: medium;
+  line-height: 35px;
+  font-family: "PT Serif", serif;
+}
+
+.temabeskrivelse_boks5 {
+  background-color: #f2f0f0;
+  margin: 20px;
+  padding: 20px;
+  font-size: large;
+  line-height: 35px;
+  font-family: "PT Serif", serif;
+}
+
+.temabeskrivelse_boks6 {
+  background-color: #f2f0f0;
+  margin: 20px;
+  padding: 20px;
+  font-size: large;
+  line-height: 35px;
+  font-family: "PT Serif", serif;
+}
+
+.temabeskrivelse_boks7 {
+  background-color: #f2f0f0;
+  margin: 20px;
+  padding: 20px;
+  font-size: large;
+  line-height: 35px;
+  font-family: "PT Serif", serif;
+}
+
+.temabeskrivelse_boks8 {
+  background-color: #f2f0f0;
+  margin: 20px;
+  padding: 20px;
+  font-size: large;
+  line-height: 35px;
+  font-family: "PT Serif", serif;
+}
+
+/****Om mig side - mobil****/
+
+.ommig_boks {
+  background-color: #fff38c;
+  padding: 40px;
+  height: 910px;
+  line-height: 30px;
+  font-family: "PT Serif", serif;
+}
+
+.om_mig_billede img {
+  margin-top: 50px;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#cv_tekst {
+  font-size: xx-large;
+}
+
+.cv_boks {
+  background-color: #fff38c;
+  margin: 10px;
+  padding: 40px;
+  margin-top: 470px;
+  line-height: 35px;
+}
+
+/*Overskrifter og tekst mobil*/
+
+h1 {
+  font-family: "Koulen", sans-serif;
+  text-align: center;
+  font-size: medium;
+}
+
+h2 {
+  font-family: "Koulen", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Koulen", sans-serif;
+  font-size: xx-large;
+}
+
+h4 {
+  font-family: "Koulen", sans-serif;
+  font-size: large;
+}
+
+h5 {
+  font-family: "Koulen", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}
+
+p,
+li {
+  font-family: "PT Serif", serif;
+  font-size: 12px;
+  line-height: 27px;
+}
+
+li {
+  font-weight: bold;
+  font-size: 12px;
+  color: black;
+}
+
+li a {
+  color: black;
+}
+
+/***Desktop***/
+
+@media only screen and (min-width: 800px) {
+  /*****Forside*****/
   .gul_boks {
     background-color: #fff38c;
-    margin: 17px;
-    height: 660px;
-    width: 1200px;
   }
 
   .isabel_billede {
-    height: 400px;
-    margin-top: 257px;
+    height: auto;
+    width: 40%;
   }
 
   .isabel_forsidetekst {
-    position: absolute;
-    left: 632px;
-    top: 500px;
-    font-size: xxx-large;
+    display: inherit;
   }
 
-  .mobil_logo {
-    display: none;
-  }
+  /***Tema-sider***/
 
-  /****Menu****/
-  body,
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  /* Styler nav menu */
-  nav {
-    display: flex;
-    justify-content: flex-end; /* Placerer menuen til højre */
-    align-items: center;
-    margin-top: 20px;
-  }
-
-  /* Styler navigation menu links, ingen understreger */
-  .menu {
-    list-style: none;
-    display: flex;
-    gap: 200px;
-    margin-right: 310px;
-  }
-
-  .menu li {
-    margin-left: 20px;
-    font-family: "Koulen", sans-serif;
-  }
-
-  .menu a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-  }
-
-  /* Styling for mobil */
-  .burger {
-    flex-direction: column;
-    cursor: pointer;
-  }
-
-  /****Om mig side****/
-
-  .ommig_boks {
-    background-color: #fff38c;
-    margin: 80px;
-    padding: 30px;
-    height: 600px;
-    font-size: large;
-    line-height: 35px;
-    font-family: "PT Serif", serif;
-  }
-
-  #om_mig_billede {
-    margin-left: 300px;
-    transform: scale(0.13);
-    height: 1%;
-  }
-
-  #cv_tekst {
-    font-size: xx-large;
-    margin-left: 350px;
-  }
-
-  .cv_boks {
-    background-color: #fff38c;
-    margin: 108px;
-    padding: 20px;
-  }
-
-  .cv_info {
-    margin-left: 70px;
-  }
-
-  /****Tema-sider****/
   .gulboks_tema {
     background-color: #fff38c;
+    width: 30%;
+    margin-left: 415px;
+  }
+  .temabeskrivelse_boks {
+    background-color: #f2f0f0;
+    margin: 60px;
+    padding: 20px;
+    font-size: medium;
+    line-height: 27px;
   }
 
   .temabeskrivelse_boks1 {
     background-color: #f2f0f0;
-    margin: 80px;
-    padding: 30px;
-    height: 420px;
-    font-size: large;
+    margin: 60px;
+    padding: 20px;
+    font-size: medium;
     line-height: 35px;
-    font-family: "PT Serif", serif;
-  }
-
-  .temabeskrivelse_boks {
-    background-color: #f2f0f0;
-    margin: 80px;
-    padding: 30px;
-    height: 600px;
-    font-size: large;
-    line-height: 35px;
-    font-family: "PT Serif", serif;
   }
 
   .temabeskrivelse_boks2 {
     background-color: #f2f0f0;
-    margin: 80px;
-    padding: 30px;
-    height: 400px;
-    font-size: large;
+    margin: 60px;
+    padding: 20px;
+    font-size: medium;
     line-height: 35px;
-    font-family: "PT Serif", serif;
   }
 
   .temabeskrivelse_boks3 {
     background-color: #f2f0f0;
-    margin: 80px;
-    padding: 30px;
-    height: 700px;
-    font-size: large;
+    margin: 60px;
+    padding: 20px;
+    font-size: medium;
     line-height: 35px;
-    font-family: "PT Serif", serif;
   }
 
   .temabeskrivelse_boks4 {
     background-color: #f2f0f0;
-    margin: 80px;
-    padding: 30px;
-    height: 370px;
-    font-size: large;
+    margin: 60px;
+    padding: 20px;
+    font-size: medium;
     line-height: 35px;
     font-family: "PT Serif", serif;
   }
 
   .temabeskrivelse_boks5 {
-    background-color: #f2f0f0;
-    margin: 80px;
-    padding: 30px;
-    height: 430px;
-    font-size: large;
-    line-height: 35px;
-    font-family: "PT Serif", serif;
+    margin: 60px;
+    padding: 20px;
   }
 
   .temabeskrivelse_boks6 {
     background-color: #f2f0f0;
-    margin: 80px;
-    padding: 30px;
-    height: 700px;
+    margin: 60px;
+    padding: 20px;
     font-size: large;
     line-height: 35px;
-    font-family: "PT Serif", serif;
   }
 
   .temabeskrivelse_boks7 {
     background-color: #f2f0f0;
-    margin: 80px;
-    padding: 30px;
-    height: 500px;
+    margin: 60px;
+    padding: 20px;
     font-size: large;
     line-height: 35px;
-    font-family: "PT Serif", serif;
   }
 
   .temabeskrivelse_boks8 {
     background-color: #f2f0f0;
-    margin: 80px;
-    padding: 30px;
-    height: 800px;
+    margin: 60px;
+    padding: 20px;
     font-size: large;
     line-height: 35px;
-    font-family: "PT Serif", serif;
-  }
-
-  .resultatlink a {
-    margin-left: 565px;
-    text-decoration: none;
-    list-style: none;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    padding: 6px;
-    background-color: #fff38c;
-    color: #000000;
-    font-family: "Koulen", sans-serif;
-  }
-
-  .resultatlink2 a {
-    position: absolute;
-    left: 590px;
-    top: 1400px;
-    text-decoration: none;
-    list-style: none;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    padding: 6px;
-    background-color: #fff38c;
-    color: #000000;
-    font-family: "Koulen", sans-serif;
-  }
-
-  /***Keyframes***/
-
-  @keyframes textShadow_kf {
-    from {
-      text-shadow: 2px 2px #333;
-    }
-
-    to {
-      text-shadow: 10px 10px #333;
-    }
-  }
-}
-
-/*** Media query for mobil-responsiveness ***/
-
-@media only screen and (max-width: 768px) {
-  /*Burgermenu*/
-
-  .menu {
-    display: none;
-    gap: 0;
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .line {
-    width: 25px;
-    height: 3px;
-    background-color: #000000;
-    margin: 5px 0;
-  }
-
-  .burger {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-  }
-
-  .menu a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-  }
-
-  .menu li {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: "Jost", sans-serif;
-  }
-
-  nav:hover .menu {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 20px;
-    background-color: #000000;
-    border-radius: 30px;
-    box-shadow: 7px -4px 2px rgba(11, 11, 11, 0.56);
-  }
-
-  nav:hover .menu a {
-    text-align: center;
-    padding: 10px;
-    display: block;
-    width: 100%;
-    color: white;
-  }
-  nav:hover .menu a:hover {
-    color: #fff38c;
-  }
-
-  /***gul boks forside***/
-
-  .gul_boks {
-    background-color: #fff38c;
-    width: 100%;
-    margin-top: 130px;
-  }
-
-  .isabel_billede {
-    height: 400px;
-    margin-top: 150px;
-    width: 100%;
-  }
-
-  .isabel_forsidetekst {
-    display: none;
-  }
-
-  #logo {
-    display: none;
   }
 
   /****Om mig side - mobil****/
 
   .ommig_boks {
     background-color: #fff38c;
-    padding: 10px;
-    height: 911px;
+    padding: 80px;
+    margin: 10px;
     line-height: 30px;
     font-family: "PT Serif", serif;
   }
 
-  #om_mig_billede {
-    margin-right: 300px;
-    transform: scale(0.1);
-    height: 10%;
+  .om_mig_billede img {
+    width: 30%;
+    margin-left: 700px;
+    object-fit: cover;
   }
 
   #cv_tekst {
-    margin-top: 260px;
-    font-size: xx-large;
+    display: inherit;
+    position: absolute;
+    top: 1000px;
+    left: 390px;
   }
 
   .cv_boks {
     background-color: #fff38c;
     margin: 10px;
-    padding: 20px;
+    padding: 80px;
     line-height: 35px;
   }
 
-  /****Tema-sider****/
-  .gulboks_tema {
-    background-color: #fff38c;
-  }
-  .temabeskrivelse_boks {
-    background-color: #f2f0f0;
-    margin: 20px;
-    padding: 20px;
-    font-size: medium;
-    line-height: 27px;
-    font-family: "PT Serif", serif;
+  p {
+    font-size: 16px;
+    line-height: 40px;
   }
 
-  .temabeskrivelse_boks1 {
-    background-color: #f2f0f0;
-    margin: 20px;
-    padding: 20px;
-
-    font-size: medium;
-    line-height: 35px;
-    font-family: "PT Serif", serif;
-  }
-
-  .temabeskrivelse_boks2 {
-    background-color: #f2f0f0;
-    margin: 20px;
-    padding: 20px;
-    font-size: medium;
-    line-height: 35px;
-    font-family: "PT Serif", serif;
-  }
-
-  .temabeskrivelse_boks3 {
-    background-color: #f2f0f0;
-    margin: 20px;
-    padding: 20px;
-    font-size: medium;
-    line-height: 35px;
-    font-family: "PT Serif", serif;
-  }
-
-  .temabeskrivelse_boks4 {
-    background-color: #f2f0f0;
-    margin: 20px;
-    padding: 20px;
-    font-size: medium;
-    line-height: 35px;
-    font-family: "PT Serif", serif;
-  }
-
-  .temabeskrivelse_boks5 {
-    background-color: #f2f0f0;
-    margin: 20px;
-    padding: 20px;
-    font-size: large;
-    line-height: 35px;
-    font-family: "PT Serif", serif;
-  }
-
-  .temabeskrivelse_boks6 {
-    background-color: #f2f0f0;
-    margin: 20px;
-    padding: 20px;
-    font-size: large;
-    line-height: 35px;
-    font-family: "PT Serif", serif;
-  }
-
-  .temabeskrivelse_boks7 {
-    background-color: #f2f0f0;
-    margin: 20px;
-    padding: 20px;
-    font-size: large;
-    line-height: 35px;
-    font-family: "PT Serif", serif;
-  }
-
-  .temabeskrivelse_boks8 {
-    background-color: #f2f0f0;
-    margin: 20px;
-    padding: 20px;
-    font-size: large;
-    line-height: 35px;
-    font-family: "PT Serif", serif;
-  }
-
-  /*overskrifter og tekst mobil*/
-
-  h1 {
-    font-family: "Koulen", sans-serif;
-    text-align: center;
-    font-size: medium;
-  }
-
-  h2 {
-    font-family: "Koulen", sans-serif;
-    text-align: center;
-  }
-
-  h3 {
-    font-family: "Koulen", sans-serif;
-    font-size: xx-large;
+  li {
+    font-size: 16px;
+    line-height: 40px;
   }
 
   h4 {
-    font-family: "Koulen", sans-serif;
-    font-size: large;
+    display: inherit;
+    font-size: 30px;
   }
 
   h5 {
+    font-size: 60px;
+  }
+
+  h7 {
     font-family: "Koulen", sans-serif;
-    font-size: xx-large;
-    text-align: center;
-  }
-
-  p,
-  li {
-    font-family: "PT Serif", serif;
-    font-size: small;
-    line-height: 27px;
-  }
-
-  li {
-    font-weight: bold;
-    font-size: 12px;
-    color: black;
-  }
-
-  li a {
-    color: black;
+    font-size: 65px;
+    position: absolute;
+    left: 640px;
+    top: 500px;
+    animation: textShadow_kf 1.3s ease-in-out infinite alternate;
   }
 }
