@@ -167,27 +167,49 @@
             </div>
         </div>
 
-        <div class="temabeskrivelse_boks7">
+        <div class="temabeskrivelse_boks6">
             <h1>CSS Keyframes & Javascript</h1>
-            <p>Nu hvor mit State-diagram, spil-elementer og skærme er færdige, så kunne jeg gå i gang med at kode
-                CSS keyframes og javascript, så mine elementer kom i bevægelse og dermed skabe dynamik i spillet.
-                Via keyframes har jeg lært at definere en animations bevægelse. I denne forbindelse har jeg også lært at
-                pege på CSS-selectors ved at bruge "document.querySelector("#start_knap")" og hvordan man tilføjer eller
-                fjerner classes eksempelvis: "add.EventListener" og "remove.EventListener".
-                Javascriptet benytter jeg hovedsageligt for at loade siden
-                "console.log("sidenVises")", gøre mine elementer klikbare "function clickPassport()" og ikke mindst
-                undersøge i
-                inspectoren om mine funktioner gør som jeg har bedt dem om. Udover det lærte jeg også at indsætte lyde
-                og musik via Javascript, som jeg optog selv og justerede i Audition fx. indsættede jeg alle mine
-                lyd-effekter og musik i min spil.html og dernæst indsættede jeg i "function clickPassport" mine
-                lydeffekter ved at bruge forskellige query-selectors, der bestemmer hvor
-                mange gange
-                lyden afspilles og dets volumen. Så når man klikker på passet, så lyder der en "weee"-lyd. Det samme
-                gjorde jeg i min "function clickVodka", hvor en lyd af glas smadrer.</p>
+            <p>I udviklingen af mit spil har jeg benyttet mig af JavaScript og CSS animationer for at skabe et
+                interaktivt og dynamisk
+                spilmiljø. Ved at udnytte forskellige JavaScript og CSS funktioner har jeg opnået en række
+                funktionaliteter.
+
+                Ved brug af event listeneren window.addEventListener("load", sidenVises); sikrer jeg, at
+                spilfunktionerne aktiveres, når hele vinduet er indlæst. Dette sikrer, at spillet startes korrekt.
+
+                Jeg har defineret og brugt forskellige variabler som points, liv, myRand, og speed til at holde styr på
+                spildata. Disse variabler ændres dynamisk i løbet af spillet afhængigt af ens
+                handlinger.
+
+                En central funktion i spillet er lavEtTal(max), som genererer et tilfældigt tal mellem 1 og det
+                specificerede maksimum. Jeg anvender dette til at bestemme positioner og hastigheder i
+                spillet.
+
+                Jeg har brugt document.querySelector til at få adgang til HTML-elementer og knytte event listeners
+                til dem. For eksempel anvender jeg dette til at reagere på knaptryk og museklik, hvilket aktiverer
+                forskellige spilfunktioner såsom pas/vodka fryser og zoomer ud.
+            </p>
+            <br>
+            <p>
+                Spilforløbet styres gennem funktioner som startSpil, clickPassport, clickVodka, genstartPas,
+                genstartVodka, og stopSpillet. Disse funktioner håndterer alt fra at starte spillet og håndtere klik på
+                elementer til at håndtere spilafslutninger baseret på point og liv.
+
+                For at gøre spillet mere livligt og interaktivt har jeg integreret animationer og lydeffekter. For
+                eksempel har jeg brugt CSS animationer (keyframes) til at skabe faldende elementer og tilføjet
+                lydeffekter som
+                "weee"-lyden ved at klikke på passet og når man klikker på vodkaflasken afspilles en lyd af knust glas.
+
+                Afslutningsvis er der to scenarier for spilafslutning: gameOver og levelComplete. Begge disse funktioner
+                styrer, hvordan spillet afsluttes, og hvilke skærme der skal vises afhængigt af spilresultatet.
+
+                Denne proces kombinerer grundlæggende JavaScript-programmering med brugen af HTML og CSS for at skabe et
+                interaktivt og underholdende spil.</p>
 
         </div>
         <div class="final_result">
-            <img final src="imgs/tema2.webp" alt="endeligresultat">
+            <a href="https://isabelrc.dk/kea/04_animation/website/index.html">
+                <img final src="imgs/airplanemoderesultat.png" alt="endeligresultat"></a>
 
         </div>
     </main>
