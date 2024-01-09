@@ -34,8 +34,12 @@
   }
 
   p,
-  li a {
+  li {
     font-family: "PT Serif", serif;
+    color: black;
+  }
+
+  li a {
     color: black;
   }
 
@@ -465,29 +469,6 @@
     font-family: "PT Serif", serif;
   }
 
-  .resultatlink a {
-    text-decoration: none;
-    margin-left: 160px;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    padding: 3px;
-    background-color: #fff38c;
-    color: #000000;
-    font-family: "Koulen", sans-serif;
-  }
-
-  .resultatlink2 a {
-    margin-left: 160px;
-    text-decoration: none;
-    list-style: none;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    padding: 3px;
-    background-color: #fff38c;
-    color: #000000;
-    font-family: "Koulen", sans-serif;
-  }
-
   /*overskrifter og tekst mobil*/
 
   h1 {
@@ -527,6 +508,10 @@
   li {
     font-weight: bold;
     font-size: 12px;
+    color: black;
+  }
+
+  li a {
     color: black;
   }
 }
